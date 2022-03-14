@@ -24,40 +24,35 @@ main .title {
 }
 
 main .title .header__title__container {
-    margin: 4rem auto .5rem;
+    margin: 0 auto;
     width: fit-content;
     height: auto;
+    margin-top:20px;
 }
-
+main .title .header__title__container span 
+{
+    display: block;
+    width: 176px;
+    height:32px ;
+    background: url('../assets/logo-v1.png') center/cover no-repeat;
+}
 main .title .header__title__container h1 {
     font-family: Linux Libertine, Georgia, Times, serif;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
+    
 }
 
-.title .header__title__container span {
-    display: inline-block;
-    width: 176px;
-    height: 32px;
-    background: url('/assets/logo-v1.png') center/cover no-repeat;
-    vertical-align: middle;
-}
-
-.paises {
-    width: 100%;
-    height: auto;
-}
 
 .main_logo {
     position: relative;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
     display: grid;
     grid-template-rows: repeat(5, 65px);
     grid-template-areas: "row1""row2""row3""row4""row5";
     justify-content: center;
-
 }
 
 .main_logo img {
